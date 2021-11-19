@@ -1,0 +1,38 @@
+body {
+  background-color: #B4C5DB;
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOj09y9u6O0oKoWP0sLo68soj55UTKTe-Pyg&usqp=CAU');
+  
+    background-size: cover;
+	
+
+
+    }
+
+img{
+	width:400px;
+    height:550px;
+}
+	
+#carte
+{
+	width: 800px;
+	margin:0 auto;
+	background-color: #B4C5DB;
+	text-align: center;
+	align-content: center;
+	border-radius: 20px;
+	
+}
+#titre
+{
+text-align:center;
+font-size:36px;
+color:red;
+font-style: Chalkduster;
+font-weight: bold;
+}
+#dimimg img
+{
+	width:400px;
+     height:550px;
+}
