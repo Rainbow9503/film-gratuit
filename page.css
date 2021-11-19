@@ -37,7 +37,7 @@ font-weight: bold;
      height:550px;
 }
 
-p{
-	width:400px;
-    height:550px;
+p
+{
+    font-size: small;
 }
