@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-image: url(https://image.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28313.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 1920px 1080px;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 4.8rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4, h5{
+    font-size: 2.8rem;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main-head{
+    background: black;
+    color: white;
+    border: 6px double rgba(164,164,164,0.48);
+    border-radius: 0px 0px 8px 8px;
+    
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 2 1 40rem;
+}
+
+.grille {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    
+    
+    /* border: 1px solid #333; */
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+#taille{
+    width: 300px;
+    height: 425px;
+}
+
+#demotext {
+    color: #766666;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    flex: 2 1 40rem;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 1.2px;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+#demotext2 {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+    }
+
+  footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    text-align: center;
+    box-shadow: 1px -4px 15px 4px #000000;
+    }
